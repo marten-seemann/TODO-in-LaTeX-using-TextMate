@@ -50,7 +50,9 @@ html_footer
 	<string>Help</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.tex.latex </string>
 	<key>uuid</key>
-	<string>46C3E5A1-7E04-11D9-AE69-000D93B6E43C</string>
+	<string>A8506E26-8A29-44B9-A46A-A304DD44BD4D</string>
 </dict>
 </plist>

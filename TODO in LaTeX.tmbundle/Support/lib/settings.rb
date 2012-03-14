@@ -40,11 +40,11 @@ end
 class Settings
   @defaults = [
     { 'name'    => 'FIXME',
-      'pattern' => '/FIX ?ME[\s,:]+(\S.*)$/i',
+      'pattern' => '/fixme\{(\S.*)\}$/i',
       'color'   => '#A00000',
     },
     { 'name'    => 'TODO',
-      'pattern' => '/TODO[\s,:]+(\S.*)$/i',
+      'pattern' => '/todo\{(\S.*)\}$/i',
       'color'   => '#CF830D',
     },
     { 'name'    => 'CHANGED',

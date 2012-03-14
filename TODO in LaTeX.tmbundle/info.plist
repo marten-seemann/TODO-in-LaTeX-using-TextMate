@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>TODO in LaTeX</string>
+	<key>ordering</key>
+	<array>
+		<string>9C86C85B-92D6-4A6B-BE53-1BF026E11512</string>
+		<string>DD7552E7-852D-4560-A77D-84B80B3D6C11</string>
+		<string>A8506E26-8A29-44B9-A46A-A304DD44BD4D</string>
+		<string>62800A9D-C87E-4B84-A603-CCE1FC050F75</string>
+	</array>
+	<key>uuid</key>
+	<string>FBF86CCA-6EC1-477B-B66E-A56009665F24</string>
+</dict>
+</plist>
