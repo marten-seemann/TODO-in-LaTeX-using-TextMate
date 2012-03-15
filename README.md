@@ -4,4 +4,4 @@ You can define *\todo* like this:
 
     \newcommand{\todo}[1]{\textcolor{red}{\textbf{ToDo: }\nolinebreak#1\xspace}}
 
-In the future I'm going to add a LaTeX package as well as a syntax highlighting of these two commands in the TextMate LaTeX bundle.
+Please refer to the INSTALL file for installation instructions. I know, following these steps it's a bit annoying, but I couldn't figure out an easier way. If you know how, please contact me!

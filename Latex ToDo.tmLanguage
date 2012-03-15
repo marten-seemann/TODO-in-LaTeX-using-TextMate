@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string></string>
+	</array>
+	<key>name</key>
+	<string>Latex ToDo</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\\)(todo)(\{)(.*)(\})</string>
+			<key>name</key>
+			<string>support.function.todo.todo.latex</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\\)(fixme)(\{)(.*)(\})</string>
+			<key>name</key>
+			<string>support.function.todo.fixme.latex</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.tex.latex.todo</string>
+	<key>uuid</key>
+	<string>C061A7B5-1E29-489B-A9DC-0B1635B945E8</string>
+</dict>
+</plist>
