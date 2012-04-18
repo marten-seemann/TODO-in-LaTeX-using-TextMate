@@ -1,0 +1,6 @@
+\newcommand{\@todowithoutstar}[1]{\textcolor{orange}{\textbf{ToDo: }\nolinebreak#1\xspace}}
+\newcommand{\@todowithstar}[1]{\textcolor{orange}{#1\xspace}}
+\newcommand{\todo}{\@ifstar{\@todowithstar}{\@todowithoutstar}}
+\newcommand{\@fixmewithoutstar}[1]{\textcolor{red}{\textbf{FixMe: }\nolinebreak#1\xspace}}
+\newcommand{\@fixmewithstar}[1]{\textcolor{red}{#1\xspace}}
+\newcommand{\fixme}{\@ifstar{\@fixmewithstar}{\@fixmewithoutstar}}
