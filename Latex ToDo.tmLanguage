@@ -20,7 +20,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\\)(todo(\*)?)(\{)(.*?)(\})</string>
+			<string>(\\)(todo(\*)?){([^{}]*(({[^{}]*})*?[^{}]*)*?[^{}]*)}</string>
 			<key>name</key>
 			<string>support.function.todo.todo.latex</string>
 		</dict>
@@ -34,7 +34,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\\)(fixme(\*)?)(\{)(.*?)(\})</string>
+			<string>(\\)(fixme(\*)?){([^{}]*(({[^{}]*})*?[^{}]*)*?[^{}]*)}</string>
 			<key>name</key>
 			<string>support.function.todo.fixme.latex</string>
 		</dict>
